@@ -1,0 +1,13 @@
+[package]
+name = "file-browser"
+version = "0.2.2"
+authors = ["kalucky0"]
+edition = "2021"
+license = "MIT"
+
+[lib]
+name="file_browser"
+crate-type = ["dylib"]
+
+[dependencies]
+rfd = "0.13.0"
